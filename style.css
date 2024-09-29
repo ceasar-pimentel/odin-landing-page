@@ -1,0 +1,126 @@
+body {
+}
+
+.container-main {
+
+    margin:auto
+}
+
+.container-one{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    padding: 0 100px 100px 100px;
+    font-family: Roboto;
+}
+
+
+.container-one-header {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.container-one-body {
+    display: flex;
+    gap: 2rem;
+    margin-top: 100px;
+}
+
+.container-one-header-logo {
+    flex-grow: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container-one-body div{
+    flex: 1 1 100%;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-left h1 {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.container-left p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.container-one a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+button {
+    width:fit-content;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    border: 0;
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.container-two h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    justify-self: center;
+}
+
+.container-two-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    height:300px;
+    gap: 1rem;
+}
+
+.container-two-row-item {
+    flex: 1 1 auto;
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+}
+
+.container-two-row-item div {
+    width: 142px;
+    height: 192px;
+    border-color: #3882F6;
+    border: #3882F6;
+    border-radius: 10px;
+    border-width: 4px;
+    border-style:solid;
+}
+.container-two-row-item p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: roboto;
+    color:darkgrey;
+}
+.container-two-row-div {
+    height: 100px;
+    border: #3882F6;
+    border-radius: 10px;
+    height: 100%;
+    color: aqua;
+}
